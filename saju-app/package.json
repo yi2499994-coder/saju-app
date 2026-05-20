@@ -8,9 +8,14 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "@anthropic-ai/sdk": "^0.20.0"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "typescript": "^6.0.3"
   }
 }
